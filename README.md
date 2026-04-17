@@ -67,6 +67,67 @@ AI-Decision-Assistant/
 ├── saved_prompt/             # Saved prompt templates
 ```
 
+### 2. AI Content Transformers
+
+A modular toolset for transforming content using AI models. It enables tasks such as rewriting, summarizing, translating, and adapting text between styles, all powered by pluggable language model APIs.
+
+**Features:**
+- Flexible transformations: rewrite, summarize, translate, and re-style content for different audiences or tones.
+- Easily extensible – add new transformation templates or target formats.
+- Integrates with multiple Language Model APIs for powerful text processing.
+- Batch processing support for multiple documents at once.
+- Command-line interface for quick use and automation.
+
+**How it Works:**
+- You supply the original content and select a transformation type (e.g., summarize, rewrite as formal, translate).
+- The tool constructs the appropriate prompt and sends it to the configured AI model (see `llm_factory.py` for supported backends).
+- Transformed content is displayed and optionally saved to output files.
+- You can add or customize transformation templates as needed.
+
+**Setup & Usage:**
+
+1. **Clone this repository:**
+    ```sh
+    git clone https://github.com/MayankJ0SHI/AI-Mini-Projects.git
+    cd AI-Mini-Projects/AI-Content-Transformers
+    ```
+
+2. **Create & activate a Python virtual environment (optional but recommended):**
+    ```sh
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+3. **Install dependencies:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+    The main dependencies (from `requirements.txt`) are:
+    - `langchain`
+    - `langchain-openai`
+    - `langchain-google-genai`
+    - `python-dotenv`
+
+4. **Configure API Keys:**
+    - Some LLM integrations (e.g., OpenAI, Google Generative AI) require API keys. Edit `config.json` to input your keys as needed. For detailed LLM usage, refer to the backend code in `llm_factory.py`.
+
+5. **Run the Project:**
+    ```sh
+    python transformer.py
+    ```
+    You will be prompted to provide your content and select a transformation. The transformed result will be printed or saved as specified.
+
+**File Structure:**
+```
+AI-Content-Transformers/
+├── transformer.py                # Main CLI application
+├── content_transformer_templates.py  # Transformation template logic
+├── llm_factory.py                # Pluggable Language Model API integration
+├── requirements.txt              # Python dependencies
+├── config.json                   # API key/config file
+├── outputs/                      # Saved transformed outputs
+```
+
 ---
 
 ## Adding More Projects
