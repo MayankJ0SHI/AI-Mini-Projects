@@ -1,0 +1,12 @@
+{
+    "lc": 1,
+    "type": "not_implemented",
+    "id": [
+        "langchain_core",
+        "prompts",
+        "few_shot",
+        "FewShotPromptTemplate"
+    ],
+    "repr": "FewShotPromptTemplate(input_variables=['input'], input_types={}, partial_variables={}, examples=[{'input': 'Explain APIs', 'output': 'Think of an API like a waiter in a restaurant. You place an order, waiter takes it to kitchen, and brings response back.'}, {'input': 'What is a database?', 'output': 'A database is like a digital notebook where data is stored and retrieved whenever needed.'}], example_prompt=PromptTemplate(input_variables=['input', 'output'], input_types={}, partial_variables={}, template='\\nInput: {input}\\nOutput: {output}\\n'), suffix='\\nInput: {input}\\nOutput:\\n', prefix='\\nYou are a friendly teacher explaining concepts to beginners.\\n\\nExplain the topic using:\\n- Simple language\\n- Analogies\\n- Step-by-step breakdown\\n')",
+    "name": "FewShotPromptTemplate"
+}
