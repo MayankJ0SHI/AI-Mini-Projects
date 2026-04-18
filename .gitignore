@@ -4,3 +4,7 @@ AI-Decision-Assistant/.env
 AI-Content-Transformer/.env
 /AI-Content-Transformer/__pycache__
 /AI-Content-Transformer/myenv
+AI-Study-Planner/.env
+*.pyc
+*.pyd
+/AI-Study-Planner/myenv
