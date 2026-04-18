@@ -130,6 +130,78 @@ AI-Content-Transformers/
 
 ---
 
+### 3. AI Study Planner
+
+This project leverages artificial intelligence to help students and learners organize, schedule, and optimize their study sessions efficiently.
+
+---
+
+## Introduction
+
+The **AI Study Planner** is designed to provide personalized study schedules using AI algorithms. It takes into account user preferences, study goals, and time availability to generate an effective study plan. The planner can adapt to user feedback, track progress, and suggest optimal schedules for revision.
+
+## Features
+
+- 📅 **Personalized Study Schedules**: Generate study plans tailored to your needs.
+- 📝 **Goal Tracking**: Set study goals and track your progress.
+- ⏰ **Time Management**: Optimize your study sessions based on your availability.
+- 🤖 **AI-Driven Recommendations**: Get dynamic plan adjustments using AI.
+- 📊 **Progress Visualization**: Visualize how close you are to your targets.
+- 🔔 **Reminders & Notifications** (if implemented): Get notified about scheduled tasks.
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/MayankJ0SHI/AI-Mini-Projects.git
+   cd AI-Mini-Projects/AI-Study-Planner
+   ```
+2. **Install dependencies:**  
+   *(Add install steps for your tech stack, e.g., Python, Node.js)*
+   ```bash
+   # Example for Python projects
+   pip install -r requirements.txt
+
+   # Example for Node.js projects
+   npm install
+   ```
+
+## Usage
+
+- Launch the main module/application:
+  ```bash
+  # Example for Python
+  python main.py
+
+  # Example for Node.js
+  npm start
+  ```
+- Follow on-screen instructions to enter your subjects, study goals, available hours, and preferences.
+- Review, modify, and accept your AI-generated study plan.
+
+### Example
+
+*(Provide an example screenshot or demo here, if available)*
+
+## Configuration
+
+- Edit configuration files (e.g., `config.yaml` or `.env`) to set custom parameters for the planner.
+- Adjust settings for AI model customization or notification preferences as needed.
+
+## Project Structure
+
+```
+AI-Study-Planner/
+├── data/                # Sample data or user profiles
+├── planner/             # Core planning and AI modules
+├── utils/               # Utility scripts and helpers
+├── main.py              # Main entry point (if Python)
+├── README.md
+└── ...
+```
+
+*(Update the structure as per your actual files and folders.)*
+
 ## Adding More Projects
 
 Each new folder should:
